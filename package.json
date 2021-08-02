@@ -1,0 +1,50 @@
+{
+  "name": "uni-request-adapter",
+  "version": "0.1.0",
+  "description": "uni.request axios适配器",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && npm run build:ts",
+    "build:ts": "tsc",
+    "clean": "rimraf lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinjiazeng/uni-request-adapter.git"
+  },
+  "keywords": [
+    "request",
+    "uniapp",
+    "adapter"
+  ],
+  "author": "yinjiazeng@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yinjiazeng/uni-request-adapter/issues"
+  },
+  "homepage": "https://github.com/yinjiazeng/uni-request-adapter#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.6"
+  },
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
